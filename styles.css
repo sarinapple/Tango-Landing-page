@@ -1,0 +1,168 @@
+*{
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  
+  left: 0;
+}
+
+
+body{
+  background-color:#00d4ff;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+header{
+  display: flex;
+  background-image: url("/Users/crivellos/Documents/Coding@StE/UDACITY/Ud_project02/images/Tango_header copy.jpeg");
+  background-size: cover;
+  width: 100%;
+  height:100px;
+
+  /* background-repeat: no-repeat;
+  background-position-x: center;
+  justify-content: center; */
+
+}
+
+.bar{
+  position: fixed;
+  padding-top: 18px;
+  margin-top: 0px;
+
+}
+
+ul{
+  display: flex;
+  
+}
+
+.menu{
+  display: flex;
+  /* center text of menu items from li tags */
+  font-size: 16px;
+  width: 60px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 6px; 
+  background-color: black;
+  color: white;
+  justify-content: center;
+
+}
+
+li{
+  /* display: flex; */
+  align-items: center;
+  
+}
+
+.container{
+  padding-top: 15px;
+  margin-left: 8px;
+}
+
+.tangoPics{
+width: 300px;
+height: 200px;
+margin-left: 30px;
+padding-top: 10px;
+
+}
+
+h3, .divider{
+  text-align: center;
+  font-size: 24px;
+}
+
+h3{
+  padding: 0px;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 768px){
+
+  header{
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height:200px;
+    background-position-y: -25px;
+  
+  }
+
+  .bar{
+    position: fixed;
+    padding-left: 135px;
+    margin-top: 40px;
+  
+  }
+
+  .menu{
+    display: flex;
+    /* center text of menu items from li tags */
+    font-size: 26px;
+    width: 100px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 6px; 
+    background-color: black;
+    color: white;
+    justify-content: center;
+  
+  }
+
+  .tangoPics{
+    width: 300px;
+    height: 200px;
+    
+    margin-left: 220px;
+    /* padding-top: 10px; */
+    
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1680px){
+
+  .bar{
+    position: fixed;
+    padding-left: 135px;
+    margin-top: 40px;
+  
+  }
+
+  .menu{
+    display: flex;
+    /* center text of menu items from li tags */
+    font-size: 36px;
+    width: 150px;
+    height: 70px;
+  
+  
+  }
+
+  header{
+    display: flex;
+  
+    background-position-y: -110px;
+  
+  }
+
+
+  .tangoPics{
+    width: 300px;
+    height: 200px;
+    margin-left: 358px;
+    padding-top: 10px;
+    
+    }
+
+
+
+
+}
